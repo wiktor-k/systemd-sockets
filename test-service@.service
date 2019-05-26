@@ -1,0 +1,9 @@
+[Unit]
+Description=Per-Connection Server
+
+[Service]
+# Try date too:
+#ExecStart=/usr/bin/date
+ExecStart=/usr/bin/cat
+StandardInput=socket
+
